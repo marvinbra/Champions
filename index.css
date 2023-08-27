@@ -1,0 +1,84 @@
+
+html, body {
+    padding: 0;
+    margin: 40px;
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 850px;
+    background: black;
+    margin: auto;
+    text-align: center;
+}
+
+.jordan-img {
+    height: 120px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 35px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.input-box {
+    width: 280px;
+    height: 100px;
+    text-align: center;
+    background: #444059;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn {
+   margin-top: 8px;
+   width: 283px; 
+   height: 60px;
+   background: #28A9F1;
+   border: none;
+   border-radius: 5px;
+}
+
+#btn:hover {
+    background-color: #0086c0;
+}
+
+button span {
+    color: #04131C;
+    font-weight: bold;
+}
+
+sectionOne {
+    margin: 15px auto;
+}
+
+h2{
+    font-size: 22px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    color: #0086c0;
+    width: 100px;
+    height: 70px;
+}
+
+ul li {
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 70px;
+}
+
+
+
