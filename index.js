@@ -14,15 +14,15 @@ const publishBtn = document.getElementById("btn")
 const inputFieldEl = document.getElementsByClassName("input-box")
 const MessageListEl = document.getElementById("message-list")
 
-publishBtn.addEventListener("click", function() {
+let arr = []
 
-    let arr = []
+publishBtn.addEventListener("click", function() {
 
     arr.push(inputFieldEl.value)
 
     inputFieldEl.value = ""
 
-    MessageListEl.innerHTML += `<ul>${arr}</ul>`
+    MessageListEl.innerHTML += `<ul style="color: white">${arr}</ul>`
 
 })
 
